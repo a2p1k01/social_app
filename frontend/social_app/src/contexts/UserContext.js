@@ -12,7 +12,7 @@ const defaultProfileData = {
     follower: "",
 };
 
-const pyAnywhere = "https://ogayanfe.pythonanywhere.com/";
+const pyAnywhere = "https://a2p1k02.pythonanywhere.com/";
 
 function UserContextProvider({ children }) {
     const userTokensFromStorage = JSON.parse(localStorage.getItem("userTokens"));
